@@ -1,0 +1,21 @@
+MYPKIX1 { }
+
+DEFINITIONS IMPLICIT TAGS ::=
+
+BEGIN
+
+OtherStruct ::= SEQUENCE {
+     x       INTEGER,
+     y       CHOICE {
+         y1 INTEGER,
+         y2 OCTET STRING }
+}
+
+Dss-Sig-Value ::= SEQUENCE {
+     r       INTEGER,
+     s       INTEGER,
+     other   OtherStruct,
+     z       INTEGER OPTIONAL
+}
+
+END
