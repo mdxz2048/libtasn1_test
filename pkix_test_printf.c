@@ -18,6 +18,7 @@ int main(int argc, char *argv[])
     printf("/*     Test sequence : coding-decoding  */\n");
     printf("/****************************************/\n\n");
 
+    /*0 parse treefile to  node_asn*/
     result = asn1_parser2tree(treefile, &definitions, errorDescription);
 
     if (result != ASN1_SUCCESS)
@@ -26,7 +27,7 @@ int main(int argc, char *argv[])
         printf("ErrorDescription = %s\n\n", errorDescription);
         exit(1);
     }
-
+    /*1 create a element*/
     result = asn1_create_element(definitions, "MYPKIX1.Dss-Sig-Value", &asn1_element);
     if (result != ASN1_SUCCESS)
     {
@@ -35,7 +36,7 @@ int main(int argc, char *argv[])
         exit(1);
     }
 
-    result = asn1_write_value(asn1_element, "r", "26", 1);
+    result = asn1_write_value(asn1_element, "r", "2", 1);
     if (result != ASN1_SUCCESS)
     {
         fprintf(stderr, "asn1_write_value(): r ");
@@ -63,6 +64,15 @@ int main(int argc, char *argv[])
         asn1_perror(result);
         exit(1);
     }
+    asn1_print_structure(stdout,asn1_element,"",ASN1_PRINT_ALL);
+    int read_value = 0;
+    result = asn1_read_value(asn1_element, "s", &read_value, 4);
+    {
+        fprintf(stderr, "asn1_read_value(): s ");
+        asn1_perror(result);
+        exit(1);
+    }
+    printf("read_value:%d\n", read_value);
 
     result = asn1_write_value(asn1_element, "z", "", 1);
     if (result != ASN1_SUCCESS)
@@ -71,13 +81,6 @@ int main(int argc, char *argv[])
         asn1_perror(result);
         exit(1);
     }
-
-    FILE *output= stdout;
-    if (output == NULL)
-    {
-        fprintf(stderr, "open() ");
-    }
-    asn1_print_structure(output, asn1_element, "MYPKIX1.Dss-Sig-Value.r", ASN1_PRINT_ALL );
 
     /* Clear the definition structures */
     asn1_delete_structure(&definitions);

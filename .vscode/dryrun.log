@@ -1,0 +1,8 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/mdxz/lzp/GIT/libtasn1_test'
+ 
+cc -c pkix_test.c -o /home/mdxz/lzp/GIT/libtasn1_test/debug/obj/pkix_test.o  -I.  -I/home/mdxz/lzp/GIT/libtasn1_test/debug  -I/home/mdxz/lzp/GIT/libtasn1_test/debug/bin  -I/home/mdxz/lzp/GIT/libtasn1_test/debug/obj  -g -pthread  -DAPP_COMPILE_DATE=\"2022-04-22\" -DAPP_COMPILE_TIME=\"18:44:27\"
+echo 
+make -C debug
+make: Leaving directory '/home/mdxz/lzp/GIT/libtasn1_test'
+ 

@@ -1,0 +1,402 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Fri Apr 22 18:44:28 2022
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+DESKTOP_SESSION = ubuntu
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_CLASS = user
+# environment
+XDG_SESSION_TYPE = x11
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+IM_CONFIG_PHASE = 1
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# environment
+GDMSESSION = ubuntu
+# environment
+XMODIFIERS = @im=fcitx
+# makefile
+CURDIR := /home/mdxz/lzp/GIT/libtasn1_test
+# makefile
+SHELL = /bin/sh
+# makefile (from 'Makefile', line 44)
+RM = rm -rf
+# makefile (from 'Makefile', line 34)
+BIN = V2xTest
+# makefile (from 'Makefile', line 32)
+ROOT_DIR = $(shell pwd)
+# environment
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/share/code/code
+# makefile (from 'Makefile', line 74)
+CFLAGS = $(foreach dir, $(INCLUDE_PATH), -I$(dir))  -g -pthread  -DAPP_COMPILE_DATE=\"$(APP_COMPILE_DATE)\" -DAPP_COMPILE_TIME=\"$(APP_COMPILE_TIME)\"
+# makefile (from 'Makefile', line 64)
+LIBRARY_PATH := /home/mdxz/lzp/GIT/libtasn1_test/lib  
+# environment
+JOURNAL_STREAM = 8:63214
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
+# environment
+USERNAME = mdxz
+# environment
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# makefile (from 'Makefile', line 4)
+OUTBIN = bin
+# environment
+MANAGERPID = 1611
+# environment
+CLUTTER_IM_MODULE = fcitx
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-4e58698d-2cc2-46ea-9067-53fb2cd95b81.sock
+# environment
+VSCODE_CWD = /home/mdxz
+# makefile (from 'Makefile', line 78)
+LDFLAGS = $(foreach lib, $(LIBRARY_PATH), -L$(lib)) $(foreach lib, $(LIBS), -l$(lib))	
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local//go/bin:/home/mdxz/lzp/Embeded/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+LSCOLORS = Gxfxcxdxbxegedabagacad
+# makefile (from 'Makefile', line 38)
+BIN_DIR = debug/bin
+# environment
+SESSION_MANAGER = local/ubuntu:@/tmp/.ICE-unix/1831,unix/ubuntu:/tmp/.ICE-unix/1831
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# makefile (from 'Makefile', line 6)
+OBJFILE = obj
+# makefile (from 'Makefile', line 53)
+APP_COMPILE_TIME = $(shell date +"%H:%M:%S")
+# environment
+GOPATH = /home/mdxz/Applications/Go
+# makefile (from 'Makefile', line 46)
+DBG_ENABLE = 0
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+VSCODE_LOG_STACK = false
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+INVOCATION_ID = 7e17e97b7c394c739dafe3805f10866b
+# makefile (from 'Makefile', line 58)
+include_path_dot = $(subst :, ,$(include_path_colon))
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = 
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 17190
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = :0
+# makefile (from 'Makefile', line 42)
+CUR_OBJS = ${patsubst %.c, %.o, $(CUR_SOURCE)}
+# environment
+GTK_IM_MODULE = fcitx
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /home/mdxz/lzp/GIT/libtasn1_test
+# default
+.LOADED := 
+# environment
+SSH_AGENT_PID = 1788
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# environment
+GTK_MODULES = gail:atk-bridge
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/mdxz
+# makefile (from 'Makefile', line 2)
+OUTFILE = debug
+# environment
+VSCODE_CODE_CACHE_PATH = /home/mdxz/.config/Code/CachedData/dfd34e8260c270da74b5c2d86d61aee4b6d56977
+# environment
+LOGNAME = mdxz
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+ZSH = /home/mdxz/.oh-my-zsh
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+QT_IM_MODULE = fcitx
+# environment
+SHLVL = 0
+# makefile (from 'Makefile', line 80)
+CC := 
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = mdxz
+# makefile
+.DEFAULT_GOAL := all
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# environment
+GOROOT = /usr/local//go
+# environment
+LESS = -R
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# makefile (from 'Makefile', line 52)
+APP_COMPILE_DATE = $(shell date +"%Y-%m-%d")
+# default
+MAKE_COMMAND := make
+# environment
+OLDPWD = /home/mdxz
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-31e28d16-1.66.2-main.sock
+# environment
+ARCH = arm
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# makefile (from 'Makefile', line 27)
+Other_DIR = include lib doc 
+# environment
+GOROOT_BOOTSTRAP = /home/mdxz/go1.4/go
+# makefile (from 'Makefile', line 36)
+OBJS_DIR = debug/obj
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+GDK_BACKEND = x11
+# automatic
++F = $(notdir $+)
+# makefile (from 'Makefile', line 40)
+CUR_SOURCE = ${wildcard *.c}
+# makefile (from 'Makefile', line 60)
+INCLUDE_PATH := . /home/mdxz/lzp/GIT/libtasn1_test/debug /home/mdxz/lzp/GIT/libtasn1_test/debug/bin /home/mdxz/lzp/GIT/libtasn1_test/debug/obj
+# environment
+QT_ACCESSIBILITY = 1
+# environment
+CROSS_COMPILE = arm-buildroot-linux-gnueabihf-
+# 'override' directive
+.SHELLSTATUS := 0
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+PAGER = less
+# environment
+LC_ALL = C
+# makefile (from 'Makefile', line 56)
+include_path_colon = $(shell ls -R | grep :)
+# environment
+QT4_IM_MODULE = fcitx
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# makefile (from 'Makefile', line 49)
+LIBS = tasn1
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+WINDOWPATH = 2
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# default
+.RECIPEPREFIX := 
+# environment
+FORCE_UNSAFE_CONFIGURE = 1
+# makefile (from 'Makefile', line 28)
+SUBDIRS := 
+# environment
+LANG = C
+# environment
+VSCODE_PID = 17190
+# variable set hash-table stats:
+ 
+# Load=133/1024=13%, Rehash=0, Collisions=29/234=12%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2053, inode 2886493): 14 files, no impossibilities.
+
+# 14 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+all: pkix_test.o DEBUG
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/19=0%
+
+DEBUG: ECHO
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 88):
+	make -C debug
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-22 18:39:57.018023642
+#  File has been updated.
+#  Successfully updated.
+
+ECHO:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 90):
+	@echo $(SUBDIRS)
+
+# 'override' directive
+pkix_test.o: .SHELLSTATUS := 0
+pkix_test.o: pkix_test.c
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'pkix_test'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := pkix_test.o
+# automatic
+# % := 
+# automatic
+# * := pkix_test
+# automatic
+# + := pkix_test.c
+# automatic
+# | := 
+# automatic
+# < := pkix_test.c
+# automatic
+# ^ := pkix_test.c
+# automatic
+# ? := pkix_test.c
+# variable set hash-table stats:
+# Load=9/32=28%, Rehash=0, Collisions=8/32=25%
+#  recipe to execute (from 'Makefile', line 93):
+	$(CC) -c $^ -o $(ROOT_DIR)/$(OBJS_DIR)/$@ $(CFLAGS)
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 96):
+	@rm $(OBJS_DIR)/*.o
+	@$(RM) $(BIN_DIR)/*
+
+# Not a target:
+pkix_test.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-22 18:39:57.018023642
+#  File has been updated.
+#  Successfully updated.
+
+inc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 99):
+	@echo $(INCLUDE_PATH)
+
+# files hash-table stats:
+# Load=10/1024=1%, Rehash=0, Collisions=0/28=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 27 / storage = 220 B / avg = 8 B
+# current buf: size = 8162 B / used = 220 B / count = 27 / avg = 8 B
+
+# strcache performance: lookups = 42 / hit rate = 35%
+# hash-table stats:
+# Load=27/8192=0%, Rehash=0, Collisions=1/42=2%
+# Finished Make data base on Fri Apr 22 18:44:28 2022
+
+ 
